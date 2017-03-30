@@ -1,6 +1,6 @@
 <?php
-//$message = $_REQUEST['message'];
-$message = "TEST Line PHP";
+$message = $_REQUEST['message'];
+//$message = "TEST Line PHP";
 
 $chOne = curl_init();
 curl_setopt( $chOne, CURLOPT_URL, "https://notify-api.line.me/api/notify");
